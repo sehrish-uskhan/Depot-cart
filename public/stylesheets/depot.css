@@ -48,6 +48,9 @@
         font: bold smaller sans-serif;
 }
 
+#store .entry form, #store .entry form div {
+  display: inline
+}
 
 #store h1 {
         font:  150% sans-serif;
@@ -132,12 +135,12 @@
 
 #store .entry p {
  margin-top: 0.5em; 
- margin-bottom: 0.8em; 
+ margin-bottom: 1em; 
 }
 
 #store .entry .price_line {
  clear: both;
- margin-bottom: 0.5em;
+ margin-bottom: 1em;
 }
 
 #store .entry .add_to_cart {
@@ -147,5 +150,18 @@
 #store .entry  .price {
   color: #44a;
   font-weight: bold;
-  margin-right: 2em;
+  margin-right: 4444em;
+}
+
+#store .cart_title {
+  font: 125% bold;
+}
+
+#store .item_price, #store .total_line {
+  text-align: right;
+}
+
+#store .total_line .total_cell {
+  font-weight: bold;
+  border-top: 1px solid #598
 }
